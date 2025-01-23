@@ -1,0 +1,13 @@
+-- Créer la base de données
+CREATE DATABASE gestion_utilisateurs;
+
+-- Utiliser la base de données
+USE gestion_utilisateurs;
+
+-- Créer la table "utilisateurs"
+CREATE TABLE utilisateurs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(255) NOT NULL,
+    prenom VARCHAR(255) NOT NULL,
+    telephone VARCHAR(20) NOT NULL
+);
